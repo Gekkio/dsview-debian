@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+
+# SPDX-FileCopyrightText: 2022 Joonas Javanainen <joonas.javanainen@gmail.com>
+#
+# SPDX-License-Identifier: CC0-1.0
+
 set -euo pipefail
 
 GIT_REPO=${1}

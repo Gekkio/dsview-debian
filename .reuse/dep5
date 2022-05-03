@@ -1,0 +1,16 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: dsview-debian
+Upstream-Contact: Joonas Javanainen <joonas.javanainen@gmail.com>
+Source: https://github.com/Gekkio/dsview-debian
+
+Files: dsview/debian/*
+Copyright: 2022 Joonas Javanainen <joonas.javanainen@gmail.com>
+License: CC0-1.0
+
+Files: libsigrok4dsl/debian/*
+Copyright: 2022 Joonas Javanainen <joonas.javanainen@gmail.com>
+License: CC0-1.0
+
+Files: libsigrokdecode4dsl/debian/*
+Copyright: 2022 Joonas Javanainen <joonas.javanainen@gmail.com>
+License: CC0-1.0
