@@ -1,0 +1,5 @@
+libsigrokdecode4dsl (0.6.0+git20211027.a80c82d-0gekkio1) jammy; urgency=medium
+
+  * Initial release
+
+ -- Joonas Javanainen <joonas.javanainen@gmail.com>  Tue, 03 May 2022 18:33:08 +0300

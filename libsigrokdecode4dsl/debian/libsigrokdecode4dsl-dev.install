@@ -1,0 +1,4 @@
+usr/include/libsigrokdecode4DSL
+usr/lib/*/libsigrokdecode4DSL.so
+usr/lib/*/libsigrokdecode4DSL.a
+usr/lib/*/pkgconfig/libsigrokdecode4DSL.pc

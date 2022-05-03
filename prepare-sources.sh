@@ -12,3 +12,10 @@ git -C "${GIT_REPO}" archive --format tar HEAD libsigrok4DSL | xz > "${LIBSIGROK
 
 mkdir -p libsigrok4dsl
 tar -C libsigrok4dsl -xJf "${LIBSIGROK}".orig.tar.xz --strip-components=1
+
+LIBSIGROKDECODE="libsigrokdecode4dsl_0.6.0+git${COMMIT_DATE}.${REV}"
+echo "${LIBSIGROKDECODE}"
+git -C "${GIT_REPO}" archive --format tar HEAD libsigrokdecode4DSL | xz > "${LIBSIGROKDECODE}".orig.tar.xz
+
+mkdir -p libsigrokdecode4dsl
+tar -C libsigrokdecode4dsl -xJf "${LIBSIGROKDECODE}".orig.tar.xz --strip-components=1
