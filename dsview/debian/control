@@ -1,0 +1,30 @@
+Source: dsview
+Section: electronics
+Priority: optional
+Maintainer: Joonas Javanainen <joonas.javanainen@gmail.com>
+Build-Depends: debhelper-compat (= 13),
+  cmake (>= 2.8.6),
+  libboost-filesystem-dev (>= 1.42),
+  libboost-thread-dev (>= 1.42),
+  libboost-system-dev (>= 1.42),
+  libfftw3-dev,
+  libpython3-dev,
+  libsigrok4dsl-dev (>= 0.2.0),
+  libsigrokdecode4dsl-dev (>= 0.4.0),
+  libusb-1.0-0-dev (>= 1.0.16),
+  libzip-dev (>= 0.10),
+  pkg-config,
+  qtbase5-dev
+Standards-Version: 4.6.0
+Homepage: https://github.com/DreamSourceLab/DSView
+Vcs-Browser: https://github.com/Gekkio/dsview-debian
+Vcs-Git: https://github.com/Gekkio/dsview-debian.git
+Rules-Requires-Root: no
+
+Package: dsview
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: DSView
+ DreamSourceLab fork of PulseView
+ .
+ PulseView is a Qt-based LA/scope/MSO GUI for sigrok.

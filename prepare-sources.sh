@@ -19,3 +19,10 @@ git -C "${GIT_REPO}" archive --format tar HEAD libsigrokdecode4DSL | xz > "${LIB
 
 mkdir -p libsigrokdecode4dsl
 tar -C libsigrokdecode4dsl -xJf "${LIBSIGROKDECODE}".orig.tar.xz --strip-components=1
+
+DSVIEW="dsview_1.1.2+git${COMMIT_DATE}.${REV}"
+echo "${DSVIEW}"
+git -C "${GIT_REPO}" archive --format tar --prefix "DSView-${REV}/" HEAD DSView "NEWS*" "ug*.pdf" | xz > "${DSVIEW}".orig.tar.xz
+
+mkdir -p dsview
+tar -C dsview -xJf "${DSVIEW}".orig.tar.xz --strip-components=1

@@ -2,6 +2,8 @@ libsigrok4dsl/*
 !libsigrok4dsl/debian/
 libsigrokdecode4dsl/*
 !libsigrokdecode4dsl/debian/
+dsview/*
+!dsview/debian/
 /*.buildinfo
 /*.changes
 /*.ddeb
