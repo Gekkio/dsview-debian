@@ -4,7 +4,6 @@ Maintainer: Joonas Javanainen <joonas.javanainen@gmail.com>
 Build-Depends: debhelper-compat (= 13),
   autotools-dev,
   libglib2.0-dev (>= 2.32.0),
-  libudev-dev (>= 151),
   libusb-1.0-0-dev (>= 1.0.9),
   libzip-dev (>= 0.10),
   pkg-config
