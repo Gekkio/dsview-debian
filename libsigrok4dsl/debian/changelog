@@ -1,0 +1,5 @@
+libsigrok4dsl (0.2.0+git20211027.a80c82d-0gekkio3) jammy; urgency=medium
+
+  * Initial release
+
+ -- Joonas Javanainen <joonas.javanainen@gmail.com>  Tue, 03 May 2022 19:39:17 +0300

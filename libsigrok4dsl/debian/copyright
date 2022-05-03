@@ -1,0 +1,81 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: libsigrok4DSL
+Upstream-Contact: https://www.dreamsourcelab.com
+Source: https://github.com/DreamSourceLab/DSView
+
+Files: *
+Copyright: 2012, Alexandru Gagniuc <mr.nuke.me@gmail.com>
+           2010-2014, Bert Vermeulen <bert@biot.com>
+           2013-2017, DreamSourceLab <dreamsourcelab@dreamsourcelab.com>
+           2013, DreamSourceLab <support@dreamsourcelab.com>
+           2007, Free Software Foundation, Inc. <http://fsf.org/>
+           2012, Peter Stuge <peter@stuge.se>
+           2012, Petteri Aimonen <jpa@sr.mail.kapsi.fi>
+           2011, Uwe Hermann <uwe@hermann-uwe.de>
+License: GPL-3+
+
+Files: error.c
+       hardware/demo/demo.c
+       log.c
+       output/csv.c
+       output/gnuplot.c
+       output/vcd.c
+       std.c
+       strutil.c
+       tests/*
+       version.c
+Copyright: 2012, Alexandru Gagniuc <mr.nuke.me@gmail.com>
+           2013, Bert Vermeulen <bert@biot.com>
+           2011, Olivier Fauchon <olivier@aixmarseille.com>
+           2010-2013, Uwe Hermann <uwe@hermann-uwe.de>
+License: GPL-2+
+
+Files: debian/*
+Copyright: 2022 Joonas Javanainen <joonas.javanainen@gmail.com>
+License: CC0-1.0
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
+
+License: CC0-1.0
+ This software has been dedicated to the public domain under the CC0
+ public domain dedication.
+ .
+ To the extent possible under law, the person who associated CC0 with
+ libottery has waived all copyright and related or neighboring rights
+ to libottery.
+ .
+ You should have received a copy of the CC0 legalcode along with this
+ work in doc/cc0.txt.  If not, see
+ <http://creativecommons.org/publicdomain/zero/1.0/>.

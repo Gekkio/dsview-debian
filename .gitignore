@@ -1,0 +1,8 @@
+libsigrok4dsl/*
+!libsigrok4dsl/debian/
+/*.buildinfo
+/*.changes
+/*.ddeb
+/*.deb
+/*.dsc
+/*.tar.xz
