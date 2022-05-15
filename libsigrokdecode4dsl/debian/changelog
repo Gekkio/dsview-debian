@@ -1,3 +1,10 @@
+libsigrokdecode4dsl (0.6.0+git20211027.a80c82d-0gekkio1~focal1) focal; urgency=medium
+
+  * Backport to Focal
+  * Downgrade debhelper-compat to 12
+
+ -- Joonas Javanainen <joonas.javanainen@gmail.com>  Sun, 15 May 2022 15:55:40 +0300
+
 libsigrokdecode4dsl (0.6.0+git20211027.a80c82d-0gekkio1) jammy; urgency=medium
 
   * Initial release
