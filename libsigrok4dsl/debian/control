@@ -1,7 +1,7 @@
 Source: libsigrok4dsl
 Priority: optional
 Maintainer: Joonas Javanainen <joonas.javanainen@gmail.com>
-Build-Depends: debhelper-compat (= 13),
+Build-Depends: debhelper-compat (= 11),
   autotools-dev,
   libglib2.0-dev (>= 2.32.0),
   libusb-1.0-0-dev (>= 1.0.9),

@@ -2,7 +2,7 @@ Source: dsview
 Section: electronics
 Priority: optional
 Maintainer: Joonas Javanainen <joonas.javanainen@gmail.com>
-Build-Depends: debhelper-compat (= 13),
+Build-Depends: debhelper-compat (= 11),
   cmake (>= 2.8.6),
   libboost-filesystem-dev (>= 1.42),
   libboost-thread-dev (>= 1.42),
