@@ -1,3 +1,10 @@
+libsigrok4dsl (0.2.0+git20211027.a80c82d-0gekkio4~bionic1) bionic; urgency=medium
+
+  * Backport to Bionic
+  * Downgrade debhelper-compat to 11
+
+ -- Joonas Javanainen <joonas.javanainen@gmail.com>  Sun, 15 May 2022 15:47:05 +0300
+
 libsigrok4dsl (0.2.0+git20211027.a80c82d-0gekkio4) jammy; urgency=medium
 
   * Fix CFLAGS
