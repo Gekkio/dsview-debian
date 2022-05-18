@@ -1,3 +1,9 @@
+libsigrok4dsl (0.2.0+git20211027.a80c82d-0gekkio4~impish1) impish; urgency=medium
+
+  * Backport to Impish
+
+ -- Joonas Javanainen <joonas.javanainen@gmail.com>  Wed, 18 May 2022 23:44:52 +0300
+
 libsigrok4dsl (0.2.0+git20211027.a80c82d-0gekkio4) jammy; urgency=medium
 
   * Fix CFLAGS

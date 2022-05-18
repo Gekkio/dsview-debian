@@ -1,3 +1,9 @@
+dsview (1.1.2+git20211027.a80c82d-0gekkio1~impish1) impish; urgency=medium
+
+  * Backport to Impish
+
+ -- Joonas Javanainen <joonas.javanainen@gmail.com>  Wed, 18 May 2022 23:45:54 +0300
+
 dsview (1.1.2+git20211027.a80c82d-0gekkio1) jammy; urgency=medium
 
   * Initial release
