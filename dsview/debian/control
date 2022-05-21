@@ -8,12 +8,12 @@ Build-Depends: debhelper-compat (= 13),
   libboost-thread-dev (>= 1.42),
   libboost-system-dev (>= 1.42),
   libfftw3-dev,
+  libglib2.0-dev (>= 2.32.0),
   libpython3-dev,
-  libsigrok4dsl-dev (>= 0.2.0),
-  libsigrokdecode4dsl-dev (>= 0.4.0),
   libusb-1.0-0-dev (>= 1.0.16),
   libzip-dev (>= 0.10),
-  pkg-config,
+  pkg-config (>= 0.22),
+  python3-dev (>= 3.2),
   qtbase5-dev
 Standards-Version: 4.6.0
 Homepage: https://github.com/DreamSourceLab/DSView
@@ -24,6 +24,7 @@ Rules-Requires-Root: no
 Package: dsview
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Conflicts: libsigrok4dsl1, libsigrokdecode4dsl4
 Description: DSView
  DreamSourceLab fork of PulseView
  .
