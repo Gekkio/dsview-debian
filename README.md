@@ -15,3 +15,11 @@ Prebuilt binary packages are available in my Ubuntu PPA:
 sudo add-apt-repository ppa:gekkio/dsview
 sudo apt-get update
 ```
+
+## Supported Ubuntu versions
+
+These Ubuntu versions are supported at the moment:
+
++ 18.04 Bionic (LTS)
++ 20.04 Focal (LTS)
++ 22.04 Jammy (LTS)
