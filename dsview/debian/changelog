@@ -1,3 +1,17 @@
+dsview (1.2.0+git20220706.9eab24a-0gekkio1) jammy; urgency=medium
+
+  * Update to latest upstream release
+
+ -- Joonas Javanainen <joonas.javanainen@gmail.com>  Fri, 15 Jul 2022 12:58:25 +0300
+
+dsview (1.2.0-RC7+git20220520.e3efc5f-0gekkio1) jammy; urgency=medium
+
+  * Update to latest upstream version
+  * Adapt to new upstream CMake-based build
+  * Drop old library packages
+
+ -- Joonas Javanainen <joonas.javanainen@gmail.com>  Sat, 21 May 2022 12:25:48 +0300
+
 dsview (1.1.2+git20211027.a80c82d-0gekkio1~impish1) impish; urgency=medium
 
   * Backport to Impish
