@@ -1,3 +1,9 @@
+dsview (1.2.0+git20220706.9eab24a-0gekkio1~bionic2) bionic; urgency=medium
+
+  * Use a CMake 3.10 -compatible way to find Python 3
+
+ -- Joonas Javanainen <joonas.javanainen@gmail.com>  Fri, 15 Jul 2022 13:37:37 +0300
+
 dsview (1.2.0+git20220706.9eab24a-0gekkio1~bionic1) bionic; urgency=medium
 
   * Backport to Bionic
