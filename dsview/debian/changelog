@@ -1,3 +1,9 @@
+dsview (1.2.0+git20220706.9eab24a-0gekkio1~bionic1) bionic; urgency=medium
+
+  * Backport to Bionic
+
+ -- Joonas Javanainen <joonas.javanainen@gmail.com>  Fri, 15 Jul 2022 13:18:45 +0300
+
 dsview (1.2.0+git20220706.9eab24a-0gekkio1) jammy; urgency=medium
 
   * Update to latest upstream release
