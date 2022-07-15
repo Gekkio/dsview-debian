@@ -1,3 +1,9 @@
+dsview (1.2.0+git20220706.9eab24a-0gekkio1~focal1) focal; urgency=medium
+
+  * Backport to Focal
+
+ -- Joonas Javanainen <joonas.javanainen@gmail.com>  Fri, 15 Jul 2022 13:14:43 +0300
+
 dsview (1.2.0+git20220706.9eab24a-0gekkio1) jammy; urgency=medium
 
   * Update to latest upstream release
