@@ -1,3 +1,9 @@
+dsview (1.2.0+git20220706.9eab24a-0gekkio1~impish1) impish; urgency=medium
+
+  * Backport to Impish
+
+ -- Joonas Javanainen <joonas.javanainen@gmail.com>  Fri, 15 Jul 2022 13:12:44 +0300
+
 dsview (1.2.0+git20220706.9eab24a-0gekkio1) jammy; urgency=medium
 
   * Update to latest upstream release
