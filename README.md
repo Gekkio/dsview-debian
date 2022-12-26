@@ -23,3 +23,4 @@ These Ubuntu versions are supported at the moment:
 + 18.04 Bionic (LTS)
 + 20.04 Focal (LTS)
 + 22.04 Jammy (LTS)
++ 22.10 Kinetic
