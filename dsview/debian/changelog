@@ -1,3 +1,9 @@
+dsview (1.3.1+git20231018.47fb31f6-0gekkio1) jammy; urgency=medium
+
+  * Update to latest upstream release
+
+ -- Joonas Javanainen <joonas.javanainen@gmail.com>  Sat, 30 Dec 2023 11:24:15 +0200
+
 dsview (1.2.1+git20220827.791de6e-0gekkio1) kinetic; urgency=medium
 
   * Update to latest upstream release
